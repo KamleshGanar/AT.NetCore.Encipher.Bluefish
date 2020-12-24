@@ -14,4 +14,10 @@ Download the AT.NetCore.Encipher.Bluefish library.
 ``` dotnet
 Bluefish bluefish = new Bluefish(passPhrase, initVector);
 ```
-
+By default the encrypted string/text is decryptable. User can make it non-decryptable in two ways:
+```
+Bluefish bluefish = new Bluefish(passPhrase, initVector, false);
+```
+```
+bluefish.IsDecryptable = false;
+```
