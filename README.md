@@ -8,4 +8,4 @@ The best thing of this library is that, this is querystring compatible. It means
 
 # Example
 1. Download the AT.NetCore.Encipher.Bluefish library.
-[![NuGet version (AT.NetCore.Common)](https://img.shields.io/nuget/v/AT.NetCore.Common.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Common/)
+[![NuGet version (AT.Common)](https://img.shields.io/nuget/v/AT.Common.svg?style=flat-square)](https://www.nuget.org/packages/AT.Common/)
