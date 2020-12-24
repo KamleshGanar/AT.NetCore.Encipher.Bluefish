@@ -34,7 +34,7 @@ Console.WriteLine(encryptStr002);
 string encryptStr003 = bluefish.Encrypt(plainText);
 Console.WriteLine(encryptStr003);
 ```
-OUTPUT:
+OUTPUT:<br/>
 biuYRXlaxfA_Y5WrXcBRQySU_9ZgOFid0I1mNa5k4Vc=
 e8vgCpPl0KR7Z65t2fUJOtzIqsoJOGi_RHvHxd1OFjo=
 o_QP7BplJrgefTBjXxzp322yFXVLFXs18kpXmL2--JUw=
@@ -45,7 +45,7 @@ Console.WriteLine("encryptStr001: " + bluefish.Decrypt(encryptStr001));
 Console.WriteLine("encryptStr002: " + bluefish.Decrypt(encryptStr002));
 Console.WriteLine("encryptStr003: " + bluefish.Decrypt(encryptStr003));
 ```
-OUTPUT:
+OUTPUT:<br/>
 encryptStr001: This is plain text<br/>
 encryptStr002: This is plain text<br/>
 encryptStr003: This is plain text<br/>
