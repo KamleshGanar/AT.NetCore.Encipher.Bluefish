@@ -60,7 +60,7 @@ string encryptedStr_002 = bluefish.Encrypt(plainText);
 Console.WriteLine(encryptedStr_001);
 Console.WriteLine(encryptedStr_002);
 ```
-OUTPUT:
+OUTPUT:<br/>
 88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7<br/>
 88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7<br/>
 
