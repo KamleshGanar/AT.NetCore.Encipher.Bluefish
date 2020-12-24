@@ -11,7 +11,7 @@ Download the AT.NetCore.Encipher.Bluefish library.
 [![NuGet version (AT.Common)](https://img.shields.io/nuget/v/AT.Common.svg?style=flat-square)](https://www.nuget.org/packages/AT.Common/)
 
 # Example
-'''
+``` .Net
 Bluefish bluefish = new Bluefish(passPhrase, initVector);
-'''
+```
 
