@@ -21,3 +21,48 @@ Bluefish bluefish = new Bluefish(passPhrase, initVector, false);
 ```
 bluefish.IsDecryptable = false;
 ```
+
+1. Encryption + Decryption: 
+```
+bluefish.IsDecryptable = true;
+string plainText = "This is plain text";
+
+string encryptStr001 = bluefish.Encrypt(plainText);
+Console.WriteLine(encryptStr001);
+string encryptStr002 = bluefish.Encrypt(plainText);
+Console.WriteLine(encryptStr002);
+string encryptStr003 = bluefish.Encrypt(plainText);
+Console.WriteLine(encryptStr003);
+```
+OUTPUT:
+biuYRXlaxfA_Y5WrXcBRQySU_9ZgOFid0I1mNa5k4Vc=
+e8vgCpPl0KR7Z65t2fUJOtzIqsoJOGi_RHvHxd1OFjo=
+o_QP7BplJrgefTBjXxzp322yFXVLFXs18kpXmL2--JUw=
+
+- Decrypte the above values -
+```
+Console.WriteLine("encryptStr001: " + bluefish.Decrypt(encryptStr001));
+Console.WriteLine("encryptStr002: " + bluefish.Decrypt(encryptStr002));
+Console.WriteLine("encryptStr003: " + bluefish.Decrypt(encryptStr003));
+```
+OUTPUT:
+encryptStr001: This is plain text
+encryptStr002: This is plain text
+encryptStr003: This is plain text
+
+The decryptable is true hence the encrypted string can be revert back and get the original text. You can observe that the three output of same plain text is different hence we cannot use this encrypted string for comparision or matching.
+
+2. One way Encryption (Non-Decryptable)
+```
+bluefish.IsDecryptable = false;
+string encryptedStr_001 = bluefish.Encrypt(plainText);
+string encryptedStr_002 = bluefish.Encrypt(plainText);
+Console.WriteLine(encryptedStr_001);
+Console.WriteLine(encryptedStr_002);
+```
+OUTPUT:
+88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7
+88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7
+
+The encrypted string of two variables are same but cannot decrypt. Hence we can use this to compare the encrypted string.
+
