@@ -46,9 +46,9 @@ Console.WriteLine("encryptStr002: " + bluefish.Decrypt(encryptStr002));
 Console.WriteLine("encryptStr003: " + bluefish.Decrypt(encryptStr003));
 ```
 OUTPUT:
-encryptStr001: This is plain text
-encryptStr002: This is plain text
-encryptStr003: This is plain text
+encryptStr001: This is plain text<br/>
+encryptStr002: This is plain text<br/>
+encryptStr003: This is plain text<br/>
 
 The decryptable is true hence the encrypted string can be revert back and get the original text. You can observe that the three output of same plain text is different hence we cannot use this encrypted string for comparision or matching.
 
@@ -61,8 +61,8 @@ Console.WriteLine(encryptedStr_001);
 Console.WriteLine(encryptedStr_002);
 ```
 OUTPUT:
-88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7
-88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7
+88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7<br/>
+88-2D-37-D6-5A-CC-23-DE-E2-52-DF-22-7A-8B-B2-C7<br/>
 
 The encrypted string of two variables are same but cannot decrypt. Hence we can use this to compare the encrypted string.
 
