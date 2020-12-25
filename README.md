@@ -13,7 +13,7 @@ The best thing of this library is that, this is querystring compatible. It means
 ``` dotnet
 Bluefish bluefish = new Bluefish(passPhrase, initVector);
 ```
-By default the encrypted string/text is decryptable. User can make it non-decryptable in two ways:
+By default the encrypted string/text is decryptable. User can make it non-decryptable in two ways: 
 ```
 Bluefish bluefish = new Bluefish(passPhrase, initVector, false);
 ```
