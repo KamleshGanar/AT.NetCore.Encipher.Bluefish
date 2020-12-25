@@ -38,7 +38,9 @@ biuYRXlaxfA_Y5WrXcBRQySU_9ZgOFid0I1mNa5k4Vc= <br/>
 e8vgCpPl0KR7Z65t2fUJOtzIqsoJOGi_RHvHxd1OFjo= <br/>
 o_QP7BplJrgefTBjXxzp322yFXVLFXs18kpXmL2--JUw= <br/>
 
-- Decrypte the above values -
+You can observe that the three output of same plain text is different hence we cannot use this encrypted string for comparision or matching.
+
+Decrypte the above values
 ```
 Console.WriteLine("encryptStr001: " + bluefish.Decrypt(encryptStr001));
 Console.WriteLine("encryptStr002: " + bluefish.Decrypt(encryptStr002));
@@ -49,7 +51,7 @@ encryptStr001: This is plain text <br/>
 encryptStr002: This is plain text <br/>
 encryptStr003: This is plain text <br/>
 
-The decryptable is true hence the encrypted string can be revert back and get the original text. You can observe that the three output of same plain text is different hence we cannot use this encrypted string for comparision or matching.
+The decryptable is true hence the encrypted string can be revert back and get the original text. 
 
 2. One way Encryption (Non-Decryptable)
 ```
