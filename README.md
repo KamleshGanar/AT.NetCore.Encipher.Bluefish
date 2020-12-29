@@ -1,13 +1,14 @@
 # AT.NetCore.Encipher.Bluefish
 The Bluefish is the modified encryption/decryption in combination of AES (Advanced Encryption Standard or Rijndael) and MD5 for One way encryption.
-This package is compatible with .NetCore 2.2.
+This package is compatible with .NetCore.
 
 # What's in it?
 The Bluefish provides the simple functionality to encrypt/decrypt the text. This works on Asymmetric Encryption Method (also called public-key cryptography) and SHA1 is default hash algorithm.
 The best thing of this library is that, this is querystring compatible. It means, the encrypted value can be passed as querystring of the url and can be easily decrypted at server side.
 
 # Nuget Package
-[![NuGet versions (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/) <br/>
+[![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/)<br/>
+[![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/)
 
 # Example
 ``` dotnet
