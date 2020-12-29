@@ -7,8 +7,8 @@ The Bluefish provides the simple functionality to encrypt/decrypt the text. This
 The best thing of this library is that, this is querystring compatible. It means, the encrypted value can be passed as querystring of the url and can be easily decrypted at server side.
 
 # Nuget Package
-[![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/)<br/>
-[![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/)
+[![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/2.1.0)
+[![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/2.2.0)
 
 # Example
 ``` dotnet
