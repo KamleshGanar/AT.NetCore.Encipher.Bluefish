@@ -9,6 +9,9 @@ The best thing of this library is that, this is querystring compatible. It means
 # Nuget Package
 [![NuGet version (AT.NetCore.Encipher)](https://img.shields.io/nuget/v/AT.NetCore.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.NetCore.Encipher/)
 
+# .Net Package
+[![NuGet version (AT.Encipher)](https://img.shields.io/nuget/v/AT.Encipher.svg?style=flat-square)](https://www.nuget.org/packages/AT.Encipher/)
+
 # Example
 ``` dotnet
 Bluefish bluefish = new Bluefish(passPhrase, initVector);
